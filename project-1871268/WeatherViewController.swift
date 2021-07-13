@@ -10,7 +10,7 @@ import UIKit
 class WeatherViewController: UIViewController {
 
     let baseURLStringForWeather="https://api.openweathermap.org/data/2.5/weather"
-    let apiKeyForWeather="3d3c4cf82d75b2abbcba6e914358550d"
+    let apiKeyForWeather="-"
     
     var cities: [String:[String:Double]]=[
         "제주" : ["lon":126.5219, "lat":33.5097],
