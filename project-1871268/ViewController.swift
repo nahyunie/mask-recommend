@@ -47,9 +47,9 @@ class ViewController: UIViewController {
 
     let baseURLStringForCovid = "http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19SidoInfStateJson?"
     let baseURLStringForMicroDust = "http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMinuDustFrcstDspth?"
-    let apiKey = "sfC%2B3T0gZ7FdnTY5FT5qvVY7wRDui24TnAXPHqwNZjoh5qbeVDv3UXNbTVE6hi6jPD%2Fse0Z4IeenGQRuCAgF5Q%3D%3D"
+    let apiKey = "-"
     let baseURLStringForWeather="https://api.openweathermap.org/data/2.5/weather"
-    let apiKeyForWeather="3d3c4cf82d75b2abbcba6e914358550d"
+    let apiKeyForWeather="-"
     
     var cities: [String:[String:Double]]=[
         "제주" : ["lon":126.5219, "lat":33.5097],
